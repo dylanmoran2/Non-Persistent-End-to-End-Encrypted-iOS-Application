@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '11.0'
+
+target 'Non-Persistent E2E Messaging' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Non-Persistent E2E Messaging
+  pod 'XMPPFramework/Swift'
+  pod 'FontAwesome.swift'
+
+  target 'Non-Persistent E2E MessagingTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Non-Persistent E2E MessagingUITests' do
+    # Pods for testing
+  end
+
+end
+inhibit_all_warnings!
